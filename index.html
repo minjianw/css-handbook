@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Css-handbook by minjianw</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Css-handbook</h1>
+          <h2>CSS参考手册</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/minjianw/css-handbook/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/minjianw/css-handbook/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/minjianw/css-handbook" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="css参考手册" class="anchor" href="#css%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C" aria-hidden="true"><span class="octicon octicon-link"></span></a>CSS参考手册</h1>
+
+<p>持续小步更新中...</p>
+
+<h2>
+<a id="浏览器支持策略" class="anchor" href="#%E6%B5%8F%E8%A7%88%E5%99%A8%E6%94%AF%E6%8C%81%E7%AD%96%E7%95%A5" aria-hidden="true"><span class="octicon octicon-link"></span></a>浏览器支持策略</h2>
+
+<p>手册在接下来将只更新IE6.0+, Firefox4.0+, Chrome4.0+, Safari4.0+, Opera15.0+（Opera从15.0开始转入webkit阵营）的支持数据，低于这些版本的数据将不再更新，让我们共同期望未来前端的生态环境越来越好。</p>
+
+<h2>
+<a id="版本更新" class="anchor" href="#%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0" aria-hidden="true"><span class="octicon octicon-link"></span></a>版本更新</h2>
+
+<h3>
+<a id="草案版本v418wd" class="anchor" href="#%E8%8D%89%E6%A1%88%E7%89%88%E6%9C%ACv418wd" aria-hidden="true"><span class="octicon octicon-link"></span></a>草案版本：v4.1.8(WD)</h3>
+
+<p>CSS参考手册目前正在v4.1.8草案中。广泛接受<a href="https://github.com/doyoe/css-handbook/issues">Issues</a>和<a href="https://github.com/doyoe/css-handbook/pulls">Pull Requests</a></p>
+
+<h3>
+<a id="最新版本v417" class="anchor" href="#%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%ACv417" aria-hidden="true"><span class="octicon octicon-link"></span></a>最新版本：v4.1.7</h3>
+
+<p>更新时间：2015.03.09</p>
+
+<ul>
+<li>新增了
+<a href="http://css.doyoe.com/values/image/image.htm">&lt;image&gt;</a>,
+<a href="http://css.doyoe.com/values/image/image().htm">image()</a>,
+<a href="http://css.doyoe.com/values/image/image-set().htm">image-set()</a>,
+<a href="http://css.doyoe.com/values/image/gradient.htm">&lt;gradient&gt;</a>,
+<a href="http://css.doyoe.com/values/color/color.htm">&lt;color&gt;</a>,
+<a href="http://css.doyoe.com/values/color/currentColor.htm">currentColor</a>,
+<a href="http://css.doyoe.com/values/textual/inherit.htm">inherit</a>,
+<a href="http://css.doyoe.com/values/textual/initial.htm">initial</a>,
+<a href="http://css.doyoe.com/values/content/counters.htm">counters</a>,
+<a href="http://css.doyoe.com/properties/font/font-size-adjust.htm">font-size-adjust</a>
+参考；</li>
+<li>移除了 min(), max() 参考；</li>
+<li>修订了
+<a href="http://css.doyoe.com/values/textual/url.htm">&lt;url&gt;</a>,
+<a href="http://css.doyoe.com/values/image/linear-gradient().htm">linear-gradient()</a>,
+<a href="http://css.doyoe.com/values/image/repeating-linear-gradient().htm">repeating-linear-gradient()</a>,
+<a href="http://css.doyoe.com/values/image/radial-gradient().htm">radial-gradient()</a>,
+<a href="http://css.doyoe.com/values/image/repeating-radial-gradient().htm">repeating-radial-gradient()</a>
+参考；</li>
+<li>修订了
+<a href="http://css.doyoe.com/properties/dimension/index.htm">Dimension</a>,
+<a href="http://css.doyoe.com/properties/margin/index.htm">Margin</a>,
+<a href="http://css.doyoe.com/properties/padding/index.htm">Padding</a>,
+<a href="http://css.doyoe.com/properties/border/index.htm">Border</a>,
+<a href="http://css.doyoe.com/properties/background/index.htm">Background</a>,
+<a href="http://css.doyoe.com/properties/color/index.htm">Color</a>,
+<a href="http://css.doyoe.com/properties/font/index.htm">Font</a>
+等模块的浏览器兼容视图；</li>
+<li>修订了
+<a href="http://css.doyoe.com/selectors/index.htm">Selectors</a>,
+<a href="http://css.doyoe.com/rules/index.htm">Rules</a>,
+<a href="http://css.doyoe.com/values/index.htm">Values and Units</a>,
+<a href="http://css.doyoe.com/appendix/index.htm">Appendix</a>,
+<a href="http://css.doyoe.com/hack/index.htm">CSS Hack</a>
+等模块的浏览器兼容视图；</li>
+<li>修订了
+<a href="http://css.doyoe.com/properties/border/border-image.htm">border-image</a>,
+<a href="http://css.doyoe.com/properties/border/border-radius.htm">border-radius</a>
+及相关属性的参考描述；</li>
+</ul>
+
+<h3>
+<a id="上个版本v416" class="anchor" href="#%E4%B8%8A%E4%B8%AA%E7%89%88%E6%9C%ACv416" aria-hidden="true"><span class="octicon octicon-link"></span></a>上个版本：v4.1.6</h3>
+
+<p>更新时间：2015.01.28</p>
+
+<ul>
+<li>修订了 <a href="http://css.doyoe.com/properties/positioning/index.htm">Positioning</a> 模块的参考描述，使用新的浏览器兼容视图，增加部分移动浏览器支持；</li>
+<li>修订了 <a href="http://css.doyoe.com/properties/layout/index.htm">Layout</a> 模块的参考描述，使用新的浏览器兼容视图，增加部分移动浏览器支持；</li>
+<li>排查了手册中的死链；</li>
+<li>修订了属性选择符 <a href="http://css.doyoe.com/selectors/attribute/att7.htm">E[att|="val"]</a> 的参考描述和示例；</li>
+<li>修订了 <a href="http://css.doyoe.com/properties/list/list-style.htm">list-style</a>的语法描述；</li>
+<li>新增了 <a href="http://css.doyoe.com/properties/user-interface/appearance.htm">appearance</a>、 <a href="http://css.doyoe.com/properties/user-interface/pointer-events.htm">pointer-events</a> 和 <a href="http://css.doyoe.com/selectors/pseudo-element/placeholder.htm">E::placeholder</a> 参考；</li>
+</ul>
+
+<h3>
+<a id="历史版本" class="anchor" href="#%E5%8E%86%E5%8F%B2%E7%89%88%E6%9C%AC" aria-hidden="true"><span class="octicon octicon-link"></span></a>历史版本：</h3>
+
+<p>查看 <a href="http://css.doyoe.com/introduction/change-list.htm">版本变更记录</a></p>
+
+<h2>
+<a id="github计划" class="anchor" href="#github%E8%AE%A1%E5%88%92" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub计划</h2>
+
+<p>CSS参考手册从v4.1.4开始，代码都托管到<a href="https://github.com/doyoe/css-handbook">GitHub</a>上。大家可以给手册提<a href="https://github.com/doyoe/css-handbook/issues">Issues</a>和<a href="https://github.com/doyoe/css-handbook/pulls">Pull Requests</a>。</p>
+
+<p>会阶段性的合并，谢谢。</p>
+
+
+        </section>
+
+        <footer>
+          Css-handbook is maintained by <a href="https://github.com/minjianw">minjianw</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
